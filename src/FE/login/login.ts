@@ -1,5 +1,5 @@
 import type { Page } from '@playwright/test';
-import type { FailedCase, User } from './login.d';
+import type { FailedCase, User } from './login';
 
 export const LoginPageIds = {
   username: 'username',
