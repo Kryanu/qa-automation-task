@@ -1,6 +1,3 @@
-import { LoginPageIds } from './login';
-export type LoginPage = typeof LoginPageIds;
-
 export interface User {
   username: string;
   password: string;

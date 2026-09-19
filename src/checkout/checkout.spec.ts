@@ -1,11 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { LoginFlow } from '../login/login';
-import {
-  addItemsToShoppingCart,
-  CheckoutIds,
-  NavigateTIllLastStep,
-  SetupCheckout,
-} from './checkout';
+import { CheckoutIds, NavigateTIllLastStep, SetupCheckout } from './checkout';
 
 test('can add item to shopping list', async ({ page }) => {
   const items = [CheckoutIds.addBackpack];

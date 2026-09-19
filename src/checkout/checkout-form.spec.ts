@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { CheckoutIds, continueCases, NavigateTIllLastStep } from './checkout';
 
 test('fill form and continue', async ({ page }) => {
-  NavigateTIllLastStep(page, {
+  await NavigateTIllLastStep(page, {
     firstName: 'Sad',
     lastName: 'Pancake',
     postalCode: 'PNCK1000',
